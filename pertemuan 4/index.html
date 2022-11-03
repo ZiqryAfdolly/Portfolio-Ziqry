@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 300px;
+            height: 140px;
+            border: 2px solid black;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: aquamarine;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .box {
+            text-align: center;
+            line-height: 120px;
+            width: 90px;
+            height: 120px;
+            background-color: antiquewhite;
+        }
+
+        .column-reverse-container {
+            margin-top: 25px;
+            background-color: beige;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            height: 300px;
+            width: 300px;
+            flex-direction: column-reverse;
+            border: 2px solid black;
+        }
+
+        .box-1 {
+            text-align: center;
+            line-height: 90px;
+            width: 90px;
+            height: 90px;
+            background-color: aquamarine;
+        }
+
+        .row-reverse-container {
+            margin-top: 25px;
+            background-color: rgb(12, 96, 215);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            width: 300px;
+            height: 300px;
+            flex-direction: row-reverse;
+            border: 2px solid black;
+        }
+
+        .box-2 {
+            text-align: center;
+            line-height: 90px;
+            width: 90px;
+            height: 90px;
+            background-color: rgb(7, 86, 60);
+        }
+
+        .column-container {
+            margin-top: 25px;
+            background-color: rgb(80, 16, 148);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            height: 300px;
+            width: 300px;
+            flex-direction: column;
+            border: 2px solid black;
+        }
+
+        .box-3 {
+            text-align: center;
+            line-height: 90px;
+            width: 90px;
+            height: 90px;
+            background-color: rgb(212, 221, 218);
+        }
+
+        .row-container {
+            margin-top: 25px;
+            background-color: rgb(135, 135, 82);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            height: 300px;
+            width: 300px;
+            flex-direction: row;
+            border: 2px solid black;
+        }
+
+        .box-4 {
+            text-align: center;
+            line-height: 90px;
+            width: 90px;
+            height: 90px;
+            background-color: rgb(91, 34, 34);
+        }
+        
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="box">Satu</div>
+        <div class="box">Dua</div>
+        <!-- <div class="box">Tiga</div>
+        <div class="box">Empat</div>
+        <div class="box">Lima</div> -->
+    </div>
+
+    <div class="column-reverse-container">
+        <div class="box-1">Satu</div>
+        <div class="box-1">Dua</div>
+        <div class="box-1">Tiga</div>
+    </div>
+
+    <div class="row-reverse-container">
+        <div class="box-2">Satu</div>
+        <div class="box-2">Dua</div>
+        <div class="box-2">Tiga</div>
+    </div>
+
+    <div class="column-container">
+        <div class="box-3">Satu</div>
+        <div class="box-3">Dua</div>
+        <div class="box-3">Tiga</div>
+    </div>
+
+    <div class="row-container">
+        <div class="box-4">Satu</div>
+        <div class="box-4">Dua</div>
+        <div class="box-4">Tiga</div>
+    </div>
+</body>
+</html>
